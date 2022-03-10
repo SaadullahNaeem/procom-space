@@ -2357,6 +2357,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@procom-space/client-portal@workspace:apps/client-portal":
+  version: 0.0.0-use.local
+  resolution: "@procom-space/client-portal@workspace:apps/client-portal"
+  dependencies:
+    "@procom-space/common": "*"
+    "@testing-library/jest-dom": ^5.16.2
+    "@testing-library/react": ^12.1.4
+    "@testing-library/user-event": ^13.5.0
+    "@types/jest": ^27.4.1
+    "@types/node": ^16.11.26
+    "@types/react": ^17.0.40
+    "@types/react-dom": ^17.0.13
+    react: ^17.0.2
+    react-dom: ^17.0.2
+    react-scripts: 5.0.0
+    typescript: ^4.6.2
+    web-vitals: ^2.1.4
+  languageName: unknown
+  linkType: soft
+
 "@procom-space/common@*, @procom-space/common@workspace:packages/common":
   version: 0.0.0-use.local
   resolution: "@procom-space/common@workspace:packages/common"
@@ -4465,26 +4485,6 @@ __metadata:
   checksum: 2ac8cd2b2f5ec986a3c743935ec85b07bc174d5421a5efc8017e1f146a1cf5f781ae962618f416352103b32c9cd7e203276e8c28241bbe946160cab16149fb68
   languageName: node
   linkType: hard
-
-"client-portal@workspace:apps/client-portal":
-  version: 0.0.0-use.local
-  resolution: "client-portal@workspace:apps/client-portal"
-  dependencies:
-    "@procom-space/common": "*"
-    "@testing-library/jest-dom": ^5.16.2
-    "@testing-library/react": ^12.1.4
-    "@testing-library/user-event": ^13.5.0
-    "@types/jest": ^27.4.1
-    "@types/node": ^16.11.26
-    "@types/react": ^17.0.40
-    "@types/react-dom": ^17.0.13
-    react: ^17.0.2
-    react-dom: ^17.0.2
-    react-scripts: 5.0.0
-    typescript: ^4.6.2
-    web-vitals: ^2.1.4
-  languageName: unknown
-  linkType: soft
 
 "cliui@npm:^7.0.2":
   version: 7.0.4
