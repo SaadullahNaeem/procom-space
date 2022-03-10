@@ -5,8 +5,8 @@
     "packages/*"
   ],
   "scripts": {
-    "auth": "yarn workspace auth-portal",
-    "client": "yarn workspace client-portal",
+    "auth": "yarn workspace @procom-space/auth-portal",
+    "client": "yarn workspace @procom-space/client-portal",
     "common": "yarn workspace @procom-space/common"
   },
   "packageManager": "yarn@3.2.0"
