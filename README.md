@@ -10,4 +10,4 @@ Run different apps side by side in multiple terminals:
 
 ### `yarn auth dev`
 
-### `yarn client dev`
+### `yarn client start`
