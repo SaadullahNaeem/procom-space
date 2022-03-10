@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "auth": "yarn workspace auth-portal",
+    "client": "yarn workspace client-portal",
+    "common": "yarn workspace @procom-space/common"
+  },
+  "packageManager": "yarn@3.2.0"
+}
